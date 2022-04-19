@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("house.jpg");
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: top;
+    width: 100%;
+}
+
+button {
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #0d6efd;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-align: center;
+    padding: 0.375rem 0.75rem;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increement-btn {
+    background: darkred;
+}
+
+#increement-btn:hover{
+    background: rgba(139, 0, 0, 0.576);
+}
+
+#school-name {
+    background: rgb(35, 35, 109);
+    width: 350px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
